@@ -106,10 +106,10 @@ function funcStay() {
     else if(yourSum === dealerSum) {
         message = "Tie!";
     }
-    else if(yourSum > dealerSum || yourSum == 21) {
+    else if(yourSum > dealerSum) {
         messgae = "You Win!";
     }
-    else if (yourSum < dealerSum || dealerSum == 21) {
+    else if (yourSum < dealerSum) {
         message = "You Lose!"
     }
     
